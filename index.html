@@ -5,22 +5,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bharat Saathi AI - Your AI Friend for Bharat</title>
 <link rel="stylesheet" href="style.css">
+<style>
+  .top-hero{display:flex; gap:18px; max-width:1100px; margin:18px auto; padding:0 14px; align-items:stretch;}
+  .left-box{flex:1.2; background:linear-gradient(135deg,#ff6b00,#ff2d00); border-radius:20px; padding:26px; color:white; overflow:hidden;}
+  .left-box h1{font-size:32px; line-height:1.2; margin:0 0 8px 0; color:white;}
+  .left-box p{margin:0 0 14px 0; color:#fff; opacity:0.95; font-size:15px;}
+  .left-box .pills{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;}
+  .left-box .pills span{background:rgba(255,255,255,0.22); padding:6px 12px; border-radius:20px; font-size:13px; font-weight:600;}
+  .left-box .imgs{display:flex; gap:10px; margin-top:16px;}
+  .left-box .imgs img{width:32%; height:78px; object-fit:cover; border-radius:12px; border:2px solid rgba(255,255,255,0.7); background:#fff;}
+  .right-box{flex:0.9; background:#111827; border-radius:20px; padding:20px; color:white; text-align:center; border:2px solid #ff6b00; display:flex; flex-direction:column; justify-content:center;}
+  .right-box .tag{color:#fbbf24; font-size:11px; font-weight:bold; letter-spacing:2px;}
+  .right-box h2{margin:8px 0 4px 0; font-size:22px; color:white;}
+  .right-box p{color:#9ca3af; font-size:13px; margin:0 0 12px 0;}
+  .right-box img{width:100%; height:140px; object-fit:cover; border-radius:14px; margin:10px 0; background:#1f2937;}
+  .right-box .btn-adv{background:#ff6b00; color:white; padding:13px 20px; border-radius:30px; font-weight:bold; text-decoration:none; display:block; font-size:16px; margin-top:6px;}
+  .right-box .link-classic{color:#9ca3af; font-size:12px; margin-top:10px; display:block;}
+  .hisab-box{background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:18px; margin-top:16px;}
+  .hisab-box input,.hisab-box select{width:100%; padding:10px; margin:6px 0 10px 0; border:1px solid #ddd; border-radius:10px; font-size:15px;}
+  .hisab-box button{background:#111827; color:white; border:0; padding:10px 16px; border-radius:10px; cursor:pointer; font-weight:bold;}
+  @media(max-width:700px){ .top-hero{flex-direction:column;} .left-box h1{font-size:26px;} }
+</style>
 </head>
 <body>
-<!-- SINGLE CLEAN BANNER - For Old Code -->
-<div style="background:#111827; padding:18px 14px; text-align:center; border-bottom:3px solid #ff6b00;">
-  <p style="color:#fbbf24; font-size:12px; font-weight:bold; letter-spacing:2px; margin:0;">✨ ADVANCE 2.0 IS LIVE</p>
-  <h2 style="color:white; margin:8px 0 4px 0; font-size:22px;">Sehat, Kheti, Padhai, Business</h2>
-  <p style="color:#9ca3af; margin:0 0 14px 0; font-size:13px;">Hinglish me poochho • Voice • Camera • Dashboard</p>
-  <a href="https://bharat-saathi-ai-advance.adaptionlabs.app/" target="_blank" style="background:#ff6b00; color:white; padding:13px 28px; border-radius:30px; font-weight:bold; text-decoration:none; display:inline-block; font-size:16px;">🚀 Open Advance App - FREE</a>
-  <p style="margin:10px 0 0 0;"><a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" style="color:#9ca3af; font-size:12px; text-decoration:underline;">Classic App bhi try karein →</a></p>
+
+<!-- TOP HERO - LEFT Bharat Saathi | RIGHT Advance -->
+<div class="top-hero">
+  <!-- LEFT -->
+  <div class="left-box">
+    <div style="font-size:13px; font-weight:bold;">🇮🇳 BHARAT SAATHI AI</div>
+    <h1>Namaste! I am your <br>Saathi 🙏</h1>
+    <p>Sehat, Kheti, Padhai, Business - Hinglish me poochho. No Login. Works on any mobile.</p>
+    <div class="imgs">
+      <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&q=80" alt="Kisan - Khet">
+      <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&q=80" alt="Student - Padhai">
+      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" alt="Health - Yoga">
+    </div>
+    <div class="pills">
+      <span>🌾 Kisan Saathi</span>
+      <span>📚 Student Saathi</span>
+      <span>❤️ Health Saathi</span>
+      <span>💼 Business Saathi</span>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right-box">
+    <div class="tag">✨ ADVANCE 2.0 IS LIVE</div>
+    <h2>Advance App</h2>
+    <p>Voice • Camera • Dashboard • Memory</p>
+    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="Advance App on Mobile">
+    <a href="https://bharat-saathi-ai-advance.adaptionlabs.app/" target="_blank" class="btn-adv">🚀 Open Advance App</a>
+    <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" class="link-classic">Classic App bhi try karein →</a>
+  </div>
 </div>
-<!-- END ADVANCE BUTTON -->
-<div style="background:#ff6b00; padding:16px; text-align:center;">
-  <h2 style="color:white; margin:0;">🤖 Try Our New LIVE AI App!</h2>
-  <p style="color:white; margin:5px 0 12px 0;">Sehat, Kheti, Padhai, Business - Hinglish me poochho</p>
-  <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" style="background:white; color:#ff6b00; padding:12px 25px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; font-size:18px;">👉 Open Bharat Saathi AI App</a>
-</div>
+<!-- END TOP HERO -->
 
 <header>
   <div class="logo">🇮🇳 Bharat Saathi AI</div>
@@ -42,26 +81,30 @@
       <button onclick="setLang('hi')">हिंदी</button>
     </div>
     <br>
-    <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" style="background:#ff6b00; color:white; padding:12px 25px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; margin-top:10px;">🚀 Open Live AI App</a>
+    <a href="https://bharat-saathi-ai-advance.adaptionlabs.app/" target="_blank" style="background:#ff6b00; color:white; padding:12px 25px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; margin-top:10px;">🚀 Open Advance App</a>
   </section>
 
   <section class="cards">
     <div class="card" onclick="openModule('kisan')">
+      <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=600&q=80" alt="Kisan" style="width:100%; height:120px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
       <h2>🌾 Kisan Saathi</h2>
       <p>Mandi price, Mausam, Fasal advice</p>
       <button>Open Kisan →</button>
     </div>
     <div class="card" onclick="openModule('student')">
+      <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="Student" style="width:100%; height:120px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
       <h2>📚 Student Saathi</h2>
       <p>NCERT help, Exam tips, Career guidance</p>
       <button>Open Student →</button>
     </div>
     <div class="card" onclick="openModule('health')">
+      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt="Health" style="width:100%; height:120px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
       <h2>❤️ Health Saathi</h2>
       <p>Symptoms info, Diet, Yoga, First-aid</p>
       <button>Open Health →</button>
     </div>
     <div class="card" style="border:2px solid #ff6b00;" onclick="openModule('business')">
+      <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Business" style="width:100%; height:120px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
       <h2>💼 Business Saathi - NEW</h2>
       <p>Bill, Udhaar Hisab, GST, WhatsApp Message, Growth Tip</p>
       <button>Open Business →</button>
@@ -85,6 +128,22 @@
     </div>
   </section>
 
+  <!-- HISAB TOOL - Udhaar Hisab -->
+  <section class="hisab-box">
+    <h3>💼 Udhaar Hisab Tool</h3>
+    <p style="color:#666; font-size:14px; margin:0 0 12px 0;">Add who owes you. Saved on this device.</p>
+    <input id="lName" placeholder="Name - e.g. Ramesh">
+    <input id="lAmt" type="number" placeholder="Amount - e.g. 5000">
+    <select id="lType"><option value="gave">I gave udhaar</option><option value="got">I received payment</option></select>
+    <div style="display:flex; gap:10px; flex-wrap:wrap;">
+      <button onclick="addEntry()">Save Entry</button>
+      <button onclick="clearAll()" style="background:#eee; color:#111;">Clear All</button>
+      <button onclick="copyReminder()" id="remBtn" style="background:#25D366;">Copy WhatsApp Reminder</button>
+    </div>
+    <ul id="entries" style="list-style:none; padding:0; margin:14px 0 0 0;"></ul>
+    <div style="display:flex; justify-content:space-between; font-weight:bold; margin-top:12px; border-top:1px solid #eee; padding-top:10px;"><span>Total Pending</span><span id="total">₹0</span></div>
+  </section>
+
   <section class="features">
     <h3>Why Bharat Saathi?</h3>
     <ul>
@@ -92,6 +151,7 @@
       <li>✅ No Login, No App Download</li>
       <li>✅ Made for Rural + Urban Bharat</li>
       <li>✅ Business + Coding + Student - All in One</li>
+      <li>🎙️ Advance: Voice + Camera + Dashboard + Memory</li>
       <li>✅ Powered by BharatCode API - Model: qwen-3.8-27b</li>
     </ul>
   </section>
@@ -100,9 +160,44 @@
 <footer>
   <p>Made with ❤️ in Ranchi, Jharkhand | For BharatCode Hackathon 2026</p>
   <p>Creator: Ashish | GitHub: ashishmva</p>
-  <p>Live AI App: <a href="https://bharat-saathi-ashish.adaptionlabs.app" style="color:#ff6b00; font-weight:bold;">bharat-saathi-ashish.adaptionlabs.app</a></p>
+  <p>Advance App: <a href="https://bharat-saathi-ai-advance.adaptionlabs.app/" style="color:#ff6b00; font-weight:bold;">bharat-saathi-ai-advance.adaptionlabs.app</a></p>
+  <p>Classic App: <a href="https://bharat-saathi-ashish.adaptionlabs.app" style="color:#ff6b00; font-weight:bold;">bharat-saathi-ashish.adaptionlabs.app</a></p>
 </footer>
 
 <script src="script.js"></script>
+<script>
+/* Hisab Tool - Agar script.js me nahi hai to ye chalega */
+var L=[]; try{ L=JSON.parse(localStorage.getItem('bs_ledger')||'[]'); }catch(e){ L=[]; }
+function save(){ try{ localStorage.setItem('bs_ledger', JSON.stringify(L)); }catch(e){} }
+function fmt(n){ return '₹'+Math.abs(n).toLocaleString('en-IN'); }
+function render(){
+  var ul=document.getElementById('entries'); if(!ul) return; var t=0; ul.innerHTML='';
+  if(!L.length){ ul.innerHTML='<li style="color:#888;">No entries yet. Add your first udhaar above.</li>'; }
+  L.forEach(function(e,i){
+    var s=e.type==='gave'?1:-1; t+=s*e.amt;
+    var li=document.createElement('li'); li.style.cssText='display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #eee;';
+    li.innerHTML='<span><b>'+e.name+'</b> <small style="color:#888;">'+(s>0?'Udhaar given':'Payment received')+' • '+e.date+'</small></span><span style="font-weight:bold; color:'+(s>0?'#16a34a':'#ef4444')+'">'+(s>0?'+':'-')+fmt(e.amt)+' <button onclick="delEntry('+i+')" style="background:none; border:0; cursor:pointer;">✕</button></span>';
+    ul.appendChild(li);
+  });
+  var tot=document.getElementById('total'); if(tot) tot.textContent=fmt(t);
+}
+function delEntry(i){ L.splice(i,1); save(); render(); }
+function addEntry(){
+  var n=document.getElementById('lName').value.trim();
+  var a=parseInt(document.getElementById('lAmt').value,10);
+  if(!n||!a||a<1){ document.getElementById('lName').focus(); return; }
+  L.unshift({name:n, amt:a, type:document.getElementById('lType').value, date:new Date().toLocaleDateString('en-IN',{day:'numeric',month:'short'})});
+  save(); render(); document.getElementById('lName').value=''; document.getElementById('lAmt').value='';
+}
+function clearAll(){ if(L.length && confirm('Delete all entries on this device?')){ L=[]; save(); render(); } }
+function copyReminder(){
+  var o={}; L.forEach(function(e){ o[e.name]=(o[e.name]||0)+(e.type==='gave'?e.amt:-e.amt); });
+  var n=Object.keys(o).filter(function(k){ return o[k]>0; })[0];
+  var msg=n?'Namaste '+n+' ji, aapka '+fmt(o[n])+' ka hisab baaki hai. Kripya suvidha anusaar bhej dein. Dhanyavaad!':'Namaste! Aapka hisab clear hai. Dhanyavaad!';
+  var done=function(){ var b=document.getElementById('remBtn'); if(b){ b.textContent='Copied!'; setTimeout(function(){ b.textContent='Copy WhatsApp Reminder'; },1800); } };
+  try{ navigator.clipboard.writeText(msg).then(done, function(){ prompt('Copy this message:', msg); }); }catch(e){ prompt('Copy this message:', msg); }
+}
+render();
+</script>
 </body>
 </html>
