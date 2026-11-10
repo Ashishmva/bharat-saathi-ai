@@ -11,7 +11,7 @@
   .left-box h1{font-size:32px; line-height:1.2; margin:0 0 8px 0; color:white;}
   .left-box p{margin:0 0 14px 0; color:#fff; opacity:0.95; font-size:15px;}
   .left-box .pills{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;}
-  .left-box .pills span{background:rgba(255,255,255,0.22); padding:6px 12px; border-radius:20px; font-size:13px; font-weight:600;}
+  .left-box .pills span{display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.22); padding:7px 13px; border-radius:20px; font-size:13px; font-weight:600;}
   .left-box .imgs{display:flex; gap:10px; margin-top:16px;}
   .left-box .imgs img{width:32%; height:78px; object-fit:cover; border-radius:12px; border:2px solid rgba(255,255,255,0.7); background:#fff;}
   .right-box{flex:0.9; background:#111827; border-radius:20px; padding:20px; color:white; text-align:center; border:2px solid #ff6b00; display:flex; flex-direction:column; justify-content:center;}
@@ -20,7 +20,7 @@
   .right-box p{color:#9ca3af; font-size:13px; margin:0 0 12px 0;}
   .right-box img{width:100%; height:140px; object-fit:cover; border-radius:14px; margin:10px 0; background:#1f2937;}
   .right-box .btn-adv{background:#ff6b00; color:white; padding:13px 20px; border-radius:30px; font-weight:bold; text-decoration:none; display:block; font-size:16px; margin-top:6px;}
-  .right-box .link-classic{color:#9ca3af; font-size:12px; margin-top:10px; display:block;}
+  .right-box .link-classic{display:block; margin-top:10px; background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,0.8); padding:11px 18px; border-radius:30px; font-weight:bold; font-size:14px; text-decoration:none; text-align:center;}
   .hisab-box{background:#fff; border:1px solid #e5e7eb; border-radius:16px; padding:18px; margin-top:16px;}
   .hisab-box input,.hisab-box select{width:100%; padding:10px; margin:6px 0 10px 0; border:1px solid #ddd; border-radius:10px; font-size:15px;}
   .hisab-box button{background:#111827; color:white; border:0; padding:10px 16px; border-radius:10px; cursor:pointer; font-weight:bold;}
@@ -49,14 +49,14 @@
     </div>
   </div>
 
-  <!-- RIGHT -->
+  <!-- RIGHT - FIXED CLASSIC BUTTON -->
   <div class="right-box">
     <div class="tag">✨ ADVANCE 2.0 IS LIVE</div>
     <h2>Advance App</h2>
     <p>Voice • Camera • Dashboard • Memory</p>
     <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="Advance App on Mobile">
     <a href="https://bharat-saathi-ai-advance.adaptionlabs.app/" target="_blank" class="btn-adv">🚀 Open Advance App</a>
-    <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" class="link-classic">Classic App bhi try karein →</a>
+    <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" class="link-classic">🤖 Open Classic App</a>
   </div>
 </div>
 <!-- END TOP HERO -->
@@ -82,6 +82,7 @@
     </div>
     <br>
     <a href="https://bharat-saathi-ai-advance.adaptionlabs.app/" target="_blank" style="background:#ff6b00; color:white; padding:12px 25px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; margin-top:10px;">🚀 Open Advance App</a>
+    <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" style="background:transparent; color:#333; border:1.5px solid #ddd; padding:11px 22px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; margin-top:10px; margin-left:8px;">🤖 Open Classic App</a>
   </section>
 
   <section class="cards">
@@ -166,7 +167,7 @@
 
 <script src="script.js"></script>
 <script>
-/* Hisab Tool - Agar script.js me nahi hai to ye chalega */
+/* Hisab Tool */
 var L=[]; try{ L=JSON.parse(localStorage.getItem('bs_ledger')||'[]'); }catch(e){ L=[]; }
 function save(){ try{ localStorage.setItem('bs_ledger', JSON.stringify(L)); }catch(e){} }
 function fmt(n){ return '₹'+Math.abs(n).toLocaleString('en-IN'); }
