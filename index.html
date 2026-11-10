@@ -8,13 +8,21 @@
 </head>
 <body>
 
+<!-- 🔴 LIVE AI APP BANNER -->
+<div style="background:#ff6b00; padding:16px; text-align:center; margin:0;">
+  <h2 style="color:white; margin:0 0 5px 0;">🤖 Try Our New LIVE AI App!</h2>
+  <p style="color:white; margin:0 0 12px 0;">Sehat, Kheti, Padhai, Business - Hinglish me poochho</p>
+  <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" style="background:white; color:#ff6b00; padding:12px 25px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; font-size:18px;">👉 Open Bharat Saathi AI App</a>
+</div>
+
 <header>
   <div class="logo">🇮🇳 Bharat Saathi AI</div>
-  <p>Your AI Friend for Kisan, Student & Health - Made in Bharat</p>
+  <p>Your AI Friend for Kisan, Student, Health & Business - Made in Bharat</p>
   <div class="badges">
     <span>🌾 Kisan Saathi</span>
     <span>📚 Student Saathi</span>
     <span>❤️ Health Saathi</span>
+    <span>💼 Business Saathi</span>
   </div>
 </header>
 
@@ -26,6 +34,8 @@
       <button onclick="setLang('en')">English</button>
       <button onclick="setLang('hi')">हिंदी</button>
     </div>
+    <br>
+    <a href="https://bharat-saathi-ashish.adaptionlabs.app" target="_blank" style="background:#ff6b00; color:white; padding:12px 25px; border-radius:25px; font-weight:bold; text-decoration:none; display:inline-block; margin-top:10px;">🚀 Open Live AI App (Adaption)</a>
   </section>
 
   <section class="cards">
@@ -44,21 +54,27 @@
       <p>Symptoms info, Diet, Yoga, First-aid</p>
       <button>Open Health →</button>
     </div>
+    <div class="card" style="border:2px solid #ff6b00;" onclick="openModule('business')">
+      <h2>💼 Business Saathi - NEW</h2>
+      <p>Bill, Udhaar Hisab, GST, WhatsApp Message, Growth Tip</p>
+      <button>Open Business →</button>
+    </div>
   </section>
 
   <section class="chat-box">
     <h3 id="chatTitle">Ask Bharat Saathi AI</h3>
     <div id="chatMessages" class="messages">
-      <div class="msg ai">Namaste! Main Bharat Saathi hoon. Kisan, Padhai ya Health - kya puchna hai?</div>
+      <div class="msg ai">Namaste! Main Bharat Saathi hoon. Kisan, Padhai, Health ya Business - kya puchna hai?</div>
     </div>
     <div class="input-row">
-      <input id="userInput" placeholder="Type here... e.g. Aaj Patna me mausam kaisa hai?" onkeypress="if(event.key==='Enter') sendMsg()">
+      <input id="userInput" placeholder="Type here... e.g. Ramesh ko 5000 udhaar diya, hisab likho" onkeypress="if(event.key==='Enter') sendMsg()">
       <button onclick="sendMsg()">Send</button>
     </div>
     <div class="quick">
       <button onclick="quickAsk('Mandi price of wheat?')">Mandi Price</button>
       <button onclick="quickAsk('Explain photosynthesis in simple Hindi')">Photosynthesis</button>
       <button onclick="quickAsk('Fever ke liye kya kare?')">Fever Help</button>
+      <button onclick="quickAsk('Kirana dukan ka daily hisab kaise rakhe?')">Business Hisab</button>
     </div>
   </section>
 
@@ -68,14 +84,16 @@
       <li>✅ Works in Hindi + English (Hinglish)</li>
       <li>✅ No Login, No App Download</li>
       <li>✅ Made for Rural + Urban Bharat</li>
-      <li>✅ 100% Free for Hackathon Demo</li>
+      <li>✅ Business + Coding + Student - All in One</li>
+      <li>✅ Powered by BharatCode API - Model: qwen-3.8-27b</li>
     </ul>
   </section>
 </main>
 
 <footer>
-  <p>Made with ❤️ in Patna, Bihar | For BharatCode Hackathon 2026</p>
-  <p>Creator: Ashish | GitHub: ashishinnovationrobotics-star</p>
+  <p>Made with ❤️ in Ranchi, Jharkhand | For BharatCode Hackathon 2026</p>
+  <p>Creator: Ashish | GitHub: ashishmva</p>
+  <p>Live AI App: <a href="https://bharat-saathi-ashish.adaptionlabs.app" style="color:#ff6b00; font-weight:bold;">bharat-saathi-ashish.adaptionlabs.app</a></p>
 </footer>
 
 <script src="script.js"></script>
