@@ -1,37 +1,33 @@
-# 🇮🇳 Bharat Saathi AI
+# 🇮🇳 Bharat Saathi AI - Your AI Friend for Bharat
 
-**Your AI Friend for Bharat - Kisan, Student & Health**
+> **Sehat, Kheti, Padhai, Business - Sab kuch ek jagah, Hinglish me!**
+> Made with ❤️ in **Ranchi, Jharkhand** | For **BharatCode Hackathon 2026**
 
-Made for **BharatCode Hackathon 2026** | Made in Patna, Bihar
+![Stars](https://img.shields.io/github/stars/ashishmva/bharat-saathi-ai?style=social)
+![Made in India](https://img.shields.io/badge/Made%20in-Bharat-orange)
 
-### 🚀 Live Demo
-Open `index.html` or enable GitHub Pages to see live demo.
-No login, No app download. Works on any mobile.
+### 🚀 LIVE DEMO - Try Now (No Login Needed)
 
-### ✨ Features
-- **🌾 Kisan Saathi** - Mandi Price, Mausam, Fasal Advice
-- **📚 Student Saathi** - NCERT Help, Exam Tips, Career Guidance
-- **❤️ Health Saathi** - Fever, Diet, Yoga, First-aid Info
-- **Hindi + English** - Hinglish Support
-- **100% Free** - No API Key Needed
+**🤖 Live AI App (Adaption):**
+👉 **https://bharat-saathi-ashish.adaptionlabs.app**
 
-### 🛠️ Tech Stack
-- HTML, CSS, JavaScript
-- No Backend - Works Offline in Browser
-- Mobile First Design
+**🌐 Live Website:**
+👉 **https://ashishmva.github.io/bharat-saathi-ai/**
 
-### 📱 How to Use
-1. Open Live Link
-2. Choose Kisan / Student / Health
-3. Type your question in Hindi or English
-4. Get instant answer
+---
 
-### 👨‍💻 Creator
-**Ashish** - Patna, Bihar
-GitHub: ashishinnovationrobotics-star
+### ✨ 4 Saathis in 1 App
 
-### 🏆 BharatCode Hackathon
-This project is submitted for BharatCode AI Hackathon.
-Category: AI for Bharat
+| Saathi | Kya Karta Hai? |
+| :--- | :--- |
+| 🌾 **Kisan Saathi** | Mandi Price, Mausam, Fasal Advice, Keeda Rog |
+| 📚 **Student Saathi** | NCERT Help, NEET/JEE/UPSC Plan, Mock Test, Scholarship & Yojana Finder |
+| ❤️ **Health Saathi** | Bukhar, Symptoms Info, Diet, Yoga, First-Aid |
+| 💼 **Business Saathi - NEW** | Bill / GST Invoice, Udhaar Hisab, WhatsApp Message, Daily Hisab, Growth Tip |
 
-Made with ❤️ in Bharat
+### 💻 Powered By
+- **BharatCode API** - Model: `qwen-3.8-27b`
+- **Modules:** `bharatcode.js` + `business.js` + `coding.js` + `student.js` + `tasks.js`
+- **Frontend:** HTML / CSS / JS - Works on any mobile
+
+### 🎯 Example - Try These:
