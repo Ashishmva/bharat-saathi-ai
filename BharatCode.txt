@@ -1,0 +1,33 @@
+PROJECT NAME: Bharat Saathi AI
+CREATOR: Ashish - Patna, Bihar
+GITHUB: ashishinnovationrobotics-star
+HACKATHON: BharatCode AI Hackathon 2026
+
+PROBLEM:
+Bharat ke 65% log gaon me rehte hai. Kisan ko mandi price nahi pata,
+student ko Hindi me simple samajh nahi aata, aur health ki basic jaankari
+ke liye doctor ke paas jaana padta hai. English AI apps unke liye mushkil hai.
+
+SOLUTION:
+Bharat Saathi AI - Ek simple website jo Hindi + English me baat karti hai.
+3 Modules:
+1. Kisan Saathi - Mandi Price, Mausam, Fasal Advice
+2. Student Saathi - NCERT Help, Exam Tips
+3. Health Saathi - Fever, Diet, Yoga Info
+
+No Login. No App Download. Kisi bhi mobile me khulta hai.
+
+TECH USED:
+HTML, CSS, JavaScript - Pure Frontend, No API Key Needed
+
+IMPACT:
+- Kisan ko sahi mandi price milega = Zyada paisa
+- Student ko Hindi me concept samajh aayega = Better marks
+- Health ki basic jaankari = Kam dar
+
+FUTURE PLAN:
+- Voice Support in Bhojpuri / Hindi
+- Real Live Mandi API + Weather API
+- WhatsApp Bot Version
+
+LIVE DEMO: Open index.html in this repo
