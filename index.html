@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharat Saathi AI - Your AI Friend for Bharat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🇮🇳 Bharat Saathi AI</div>
+  <p>Your AI Friend for Kisan, Student & Health - Made in Bharat</p>
+  <div class="badges">
+    <span>🌾 Kisan Saathi</span>
+    <span>📚 Student Saathi</span>
+    <span>❤️ Health Saathi</span>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Namaste! I am your <span>Saathi</span></h1>
+    <p>Ask in Hindi or English. No login. Works on any mobile.</p>
+    <div class="lang-btns">
+      <button onclick="setLang('en')">English</button>
+      <button onclick="setLang('hi')">हिंदी</button>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="card" onclick="openModule('kisan')">
+      <h2>🌾 Kisan Saathi</h2>
+      <p>Mandi price, Mausam, Fasal advice</p>
+      <button>Open Kisan →</button>
+    </div>
+    <div class="card" onclick="openModule('student')">
+      <h2>📚 Student Saathi</h2>
+      <p>NCERT help, Exam tips, Career guidance</p>
+      <button>Open Student →</button>
+    </div>
+    <div class="card" onclick="openModule('health')">
+      <h2>❤️ Health Saathi</h2>
+      <p>Symptoms info, Diet, Yoga, First-aid</p>
+      <button>Open Health →</button>
+    </div>
+  </section>
+
+  <section class="chat-box">
+    <h3 id="chatTitle">Ask Bharat Saathi AI</h3>
+    <div id="chatMessages" class="messages">
+      <div class="msg ai">Namaste! Main Bharat Saathi hoon. Kisan, Padhai ya Health - kya puchna hai?</div>
+    </div>
+    <div class="input-row">
+      <input id="userInput" placeholder="Type here... e.g. Aaj Patna me mausam kaisa hai?" onkeypress="if(event.key==='Enter') sendMsg()">
+      <button onclick="sendMsg()">Send</button>
+    </div>
+    <div class="quick">
+      <button onclick="quickAsk('Mandi price of wheat?')">Mandi Price</button>
+      <button onclick="quickAsk('Explain photosynthesis in simple Hindi')">Photosynthesis</button>
+      <button onclick="quickAsk('Fever ke liye kya kare?')">Fever Help</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <h3>Why Bharat Saathi?</h3>
+    <ul>
+      <li>✅ Works in Hindi + English (Hinglish)</li>
+      <li>✅ No Login, No App Download</li>
+      <li>✅ Made for Rural + Urban Bharat</li>
+      <li>✅ 100% Free for Hackathon Demo</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Made with ❤️ in Patna, Bihar | For BharatCode Hackathon 2026</p>
+  <p>Creator: Ashish | GitHub: ashishinnovationrobotics-star</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
